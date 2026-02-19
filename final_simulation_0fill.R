@@ -124,22 +124,21 @@ for (scenario in c("B")) {
   for (GAcontrol in c(TRUE, FALSE)) {
     # place to store results
     results_full <- results_37 <- results_0 <- results_mean <-
-      results_full <- results_37 <- results_0 <-
-        results_carryforward <-
-          results_mean <- cbind(
-            data.frame(
-              simnum = rep(1:nsims, each = length(df_range)),
-              model = rep("ns", length(df_range) * nsims),
-              df = rep(df_range, nsims),
-              AIC = NA,
-              coverage_142 = NA,
-              coverage_3842 = NA,
-              cumulative = NA,
-              cumulative_coverage = NA
-            ),
-            matrix(0, nsims * length(df_range), 42), # for point estimate
-            matrix(0, nsims * length(df_range), 42) # cor coverage
-          )
+      results_carryforward <-
+        results_mean <- cbind(
+          data.frame(
+            simnum = rep(1:nsims, each = length(df_range)),
+            model = rep("ns", length(df_range) * nsims),
+            df = rep(df_range, nsims),
+            AIC = NA,
+            coverage_142 = NA,
+            coverage_3842 = NA,
+            cumulative = NA,
+            cumulative_coverage = NA
+          ),
+          matrix(0, nsims * length(df_range), 42), # for point estimate
+          matrix(0, nsims * length(df_range), 42) # cor coverage
+        )
 
     # loop over replicate data sets
     for (sim in 1:nsims) {
@@ -549,8 +548,8 @@ for (scenario in c("B")) {
         ".csv"
       ),
     )
-  }
-}
+  } # end loop over GAcontrol
+} # end loop over scenario
 
 
 # ---------------------------------------- #
