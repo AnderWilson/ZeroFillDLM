@@ -1,0 +1,31 @@
+model,data,CE_bias,CE_RMSE,CE_coverage,CE_p,file
+ns (best AIC),carry forward,-0.00296563450120967,0.02975702923129133,95.4,0.4421238293950761,final_table_scenarioA_GAcontrolFALSE.csv
+ns (best AIC),mean-filled,-0.00297101033568864,0.02987296894674255,95,0.4421846556995413,final_table_scenarioA_GAcontrolFALSE.csv
+ns (best AIC),natural through week 42,-9.545407133849992e-4,0.03115659721918776,94.75,0.8089703371898362,final_table_scenarioA_GAcontrolFALSE.csv
+ns (best AIC),truncated at week 37,-0.00108080777168768,0.02865749293656995,94.95,0.7753216471152865,final_table_scenarioA_GAcontrolFALSE.csv
+ns (best AIC),zero-filled,0.2521386442897311,0.10082071089709985,70.39999999999999,0,final_table_scenarioA_GAcontrolFALSE.csv
+ns (best AIC),carry forward,-0.00250527690525836,0.02932364413504401,95.1,0.5130687846880901,final_table_scenarioA_GAcontrolTRUE.csv
+ns (best AIC),mean-filled,-0.00277267444805012,0.02940611661996874,95.2,0.4697594358798515,final_table_scenarioA_GAcontrolTRUE.csv
+ns (best AIC),natural through week 42,-5.714474026000163e-4,0.03074603054892263,94.75,0.8841647311772205,final_table_scenarioA_GAcontrolTRUE.csv
+ns (best AIC),truncated at week 37,-7.178604879984004e-4,0.02830037171070325,95.15,0.848709937029236,final_table_scenarioA_GAcontrolTRUE.csv
+ns (best AIC),zero-filled,-0.00850998126611053,0.06955119547439442,92.35,0.1490437199913637,final_table_scenarioA_GAcontrolTRUE.csv
+ns (best AIC),carry forward,-0.34159444280186074,0.14590116186972538,48.35,0,final_table_scenarioB_GAcontrolFALSE.csv
+ns (best AIC),mean-filled,-0.34107925618200097,0.14487128009176567,48.3,0,final_table_scenarioB_GAcontrolFALSE.csv
+ns (best AIC),natural through week 42,-0.33952650505409565,0.14598855493601856,50.3,0,final_table_scenarioB_GAcontrolFALSE.csv
+ns (best AIC),truncated at week 37,-0.34036003489774924,0.14412585004789585,47.599999999999994,0,final_table_scenarioB_GAcontrolFALSE.csv
+ns (best AIC),zero-filled,-0.01469660828860494,0.08870874257749635,92.35,0.02729691689525016,final_table_scenarioB_GAcontrolFALSE.csv
+ns (best AIC),carry forward,0.01573304437514264,0.06769219729698518,93.4,0.00681432734641377,final_table_scenarioB_GAcontrolTRUE.csv
+ns (best AIC),mean-filled,0.01875214530343652,0.06810587445050237,92.8,0.00129801318602998,final_table_scenarioB_GAcontrolTRUE.csv
+ns (best AIC),natural through week 42,0.01745946333735177,0.0694971369572769,93.25,0.00303678775572686,final_table_scenarioB_GAcontrolTRUE.csv
+ns (best AIC),truncated at week 37,0.00597637475861943,0.0683245879349996,92.7,0.3066614238349892,final_table_scenarioB_GAcontrolTRUE.csv
+ns (best AIC),zero-filled,0.01739637803330791,0.10248893124213564,91.2,0.01505524007920119,final_table_scenarioB_GAcontrolTRUE.csv
+ns (best AIC),carry forward,-0.00583147914727847,0.03743983470672057,95.45,0.17778556879793492,final_table_scenarioC_GAcontrolFALSE.csv
+ns (best AIC),mean-filled,-0.00510488928939296,0.03731829589280183,95.65,0.2373829546655666,final_table_scenarioC_GAcontrolFALSE.csv
+ns (best AIC),natural through week 42,-0.00403085790092509,0.03854960238249873,95.25,0.35868226402107506,final_table_scenarioC_GAcontrolFALSE.csv
+ns (best AIC),truncated at week 37,-0.00578431882831165,0.03682853260846949,95.3,0.17773736919493327,final_table_scenarioC_GAcontrolFALSE.csv
+ns (best AIC),zero-filled,0.2349455473929467,0.09919696607764349,76.64999999999999,0,final_table_scenarioC_GAcontrolFALSE.csv
+ns (best AIC),carry forward,-0.00553742575167509,0.0367859406004952,95.1,0.1967208283928059,final_table_scenarioC_GAcontrolTRUE.csv
+ns (best AIC),mean-filled,-0.0051699358803457,0.03654691333475303,95.4,0.22659330956251025,final_table_scenarioC_GAcontrolTRUE.csv
+ns (best AIC),natural through week 42,-0.00368485805771263,0.03790013629145968,95.15,0.3974212451825317,final_table_scenarioC_GAcontrolTRUE.csv
+ns (best AIC),truncated at week 37,-0.00531798861104689,0.0361671815925714,95.25,0.2111764675553921,final_table_scenarioC_GAcontrolTRUE.csv
+ns (best AIC),zero-filled,-0.00576695127449277,0.07622812079606117,92.8,0.35036905348223313,final_table_scenarioC_GAcontrolTRUE.csv

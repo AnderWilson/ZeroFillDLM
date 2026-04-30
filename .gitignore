@@ -2,4 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-DataRaw/
+Data/co_dlm_data.rda
+OLD/
+*.out
+GetExposureData.R

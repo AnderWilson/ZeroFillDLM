@@ -1,2 +1,12 @@
-Code for a simulation study investigating the effects of zero-filling post birth exposures in a distributed lag model analysis.
+Code for the paper _Gestational misalignment with fixed exposure windows: the potential dangers of zero-filling in distributed lag models_ by Michael Leung, Andreas M Neophytou and Ander Wilson.
+
+
+Raw data is not provided due to restrictions. The simulations can be reproduced with the data provided.
+
+The folders:
+- Data: contains scripts used in data processing and contains the data that can be shared.
+- Simulation: contains scripts and output from the simulation study. The data to run these scripts in included in the data folder.
+- ColoradoAnalysis: contains scripts and output from the data analysis. The data to run these scripts is not provided.
+
+Packages are managed and versioned through the renv package.
 
