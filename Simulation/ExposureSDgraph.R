@@ -142,7 +142,7 @@ sd_plt <-
 # )
 
 ggsave(
-  "~/ZeroFillDLM/Simulation/FinalTablesFigures/exposure_sd_graph.pmg",
+  "~/ZeroFillDLM/Simulation/FinalTablesFigures/exposure_sd_graph.png",
   plot = sd_plt,
   device = "png",
   width = 4,
