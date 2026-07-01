@@ -129,7 +129,13 @@ sd_plt <-
     legend.key.size = unit(.16, 'in'), # use for eps
     legend.key.width = unit(.5, 'in') # use for eps
   ) +
-  scale_linetype_manual(values = c(2, 3, 4, 5, 1))
+  scale_linetype_manual(values = c(2, 3, 4, 5, 1)) +
+  labs(tag = "B)") +
+  # 2. Position the tag to the top right and align it
+  theme(
+    plot.tag.position = "topleft",
+    plot.tag = element_text(vjust = 1, hjust = 1, size = 10, face = "bold")
+  )
 # ggtitle("Exposure Standard Deviation by Week")
 # sd_plt
 
@@ -208,15 +214,34 @@ cor_plt <-
     legend.key.size = unit(.16, 'in'), # use for eps
     legend.key.width = unit(.5, 'in') # use for eps
   ) +
-  scale_linetype_manual(values = c(2, 3, 4, 5, 1))
-# ggtitle("Correlation between exposure and gestational age by Week")
-cor_plt
+  scale_linetype_manual(values = c(2, 3, 4, 5, 1)) +
+  # ggtitle("Correlation between exposure and gestational age by Week")
+  labs(tag = "A)") +
+  # 2. Position the tag to the top right and align it
+  theme(
+    plot.tag.position = "topleft",
+    plot.tag = element_text(vjust = 1, hjust = 1, size = 10, face = "bold")
+  )
 
 ggsave(
   "~/ZeroFillDLM/Simulation/FinalTablesFigures/exposure_gestage_cor_graph.png",
   plot = cor_plt,
   device = "png",
   width = 4,
+  height = 3,
+  units = "in",
+  dpi = 320
+)
+
+library(patchwork)
+combined_plot <- cor_plt + sd_plt
+
+
+ggsave(
+  "~/ZeroFillDLM/Simulation/FinalTablesFigures/exposure_gestage_cor_and_sd_graph.png",
+  plot = combined_plot,
+  device = "png",
+  width = 8,
   height = 3,
   units = "in",
   dpi = 320
