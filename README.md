@@ -1,6 +1,6 @@
 Code for the paper:
 
-Michael Leung, Andreas M Neophytou and Ander Wilson. "Gestational misalignment with fixed exposure windows: the potential dangers of zero-filling in distributed lag models". _International Journal of Epidemiology_ (In press). 
+Michael Leung, Andreas M Neophytou and Ander Wilson. "Gestational misalignment with fixed exposure windows: the potential dangers of zero-filling in distributed lag models". _International Journal of Epidemiology_. DOI: [doi.org/10.1093/ije/dyag162](10.1093/ije/dyag162). 
 
 
 Raw data is not provided due to restrictions. The simulations can be reproduced with the data provided.
