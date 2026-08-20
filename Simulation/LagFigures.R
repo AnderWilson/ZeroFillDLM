@@ -53,13 +53,13 @@ for (min_gest_age in c(30, 37)) {
       "not adjusted for\ngestational age"
     )
     results_all$scenario <- ifelse(
-      substring(i, 30, 30) == "B",
+      substring(i, 30, 30) == "A",
       "A) gestational age as predictor",
       ifelse(
-        substring(i, 30, 30) == "C",
+        substring(i, 30, 30) == "B",
         "B) gestational age as mediator",
         ifelse(
-          substring(i, 30, 30) == "E",
+          substring(i, 30, 30) == "C",
           "C) gestational age as predictor w/ confounding",
           "error"
         )
@@ -125,7 +125,12 @@ for (min_gest_age in c(30, 37)) {
     theme_bw(base_size = 9) +
     theme(strip.background = element_blank()) +
     facet_nested(scenario + GAcontrol ~ data, nest_line = TRUE) +
-    geom_line(data = truth_df, aes(x = week, y = value), color = "red") +
+    geom_line(
+      data = truth_df,
+      aes(x = week, y = value),
+      color = "red",
+      linetype = 2
+    ) +
     xlab("Week of gestation") +
     ylab("Week-specific exposure effect") +
     ylim(-.41, .41)
